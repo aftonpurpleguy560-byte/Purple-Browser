@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Open VIP can improve the speed of decompilation, resource code translate to name automatically and activate the smart editing and automatic completion function-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="672308633"
+    android:versionName="130.0.6723.86"
+    android:isFeatureSplit="true"
+    android:compileSdkVersion="35"
+    android:compileSdkVersionCodename="15"
+    android:requiredSplitTypes=""
+    android:splitTypes="auxiliary_search__module"
+    package="com.android.chrome"
+    platformBuildVersionCode="35"
+    platformBuildVersionName="15"
+    split="auxiliary_search">
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="34" />
+    <module onDemand="false">
+        <fusing include="true" />
+    </module>
+    <application>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="2" />
+    </application>
+    <uses-split android:name="chrome" />
+</manifest>
+
