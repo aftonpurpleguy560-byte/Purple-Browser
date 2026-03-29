@@ -1,0 +1,4 @@
+.class public Landroidx/appsearch/exceptions/IllegalSchemaException;
+.super Ljava/lang/IllegalArgumentException;
+.source "chromium-TrichromeChromeGoogle6432.aab-stable-672308633"
+
